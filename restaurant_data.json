@@ -1,0 +1,768 @@
+{
+  "config": {
+    "maxCapacity": 100,
+    "name": "Restaurant Dashboard",
+    "alertThreshold": 80
+  },
+  "currentVisitors": 0,
+  "history": [
+    {
+      "timestamp": "2025-11-05T03:35:54.492Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 1
+    },
+    {
+      "timestamp": "2025-11-05T03:35:59.340Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 2
+    },
+    {
+      "timestamp": "2025-11-05T03:35:59.470Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 3
+    },
+    {
+      "timestamp": "2025-11-05T03:35:59.614Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 4
+    },
+    {
+      "timestamp": "2025-11-05T03:35:59.744Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 5
+    },
+    {
+      "timestamp": "2025-11-05T03:35:59.924Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 6
+    },
+    {
+      "timestamp": "2025-11-05T03:36:00.360Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 7
+    },
+    {
+      "timestamp": "2025-11-05T03:36:00.551Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 8
+    },
+    {
+      "timestamp": "2025-11-05T03:36:00.715Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 9
+    },
+    {
+      "timestamp": "2025-11-05T03:36:00.899Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 10
+    },
+    {
+      "timestamp": "2025-11-05T03:36:01.070Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 11
+    },
+    {
+      "timestamp": "2025-11-05T03:36:01.256Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 12
+    },
+    {
+      "timestamp": "2025-11-05T03:36:01.398Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 13
+    },
+    {
+      "timestamp": "2025-11-05T03:36:01.589Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 14
+    },
+    {
+      "timestamp": "2025-11-05T03:36:01.768Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 15
+    },
+    {
+      "timestamp": "2025-11-05T03:36:04.140Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 14
+    },
+    {
+      "timestamp": "2025-11-05T03:36:04.786Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 13
+    },
+    {
+      "timestamp": "2025-11-05T03:36:04.959Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 12
+    },
+    {
+      "timestamp": "2025-11-05T03:36:05.144Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 11
+    },
+    {
+      "timestamp": "2025-11-05T03:36:05.328Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 10
+    },
+    {
+      "timestamp": "2025-11-05T03:36:05.507Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 9
+    },
+    {
+      "timestamp": "2025-11-05T03:36:07.463Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 10
+    },
+    {
+      "timestamp": "2025-11-05T03:36:10.940Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 12
+    },
+    {
+      "timestamp": "2025-11-05T03:36:11.105Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 13
+    },
+    {
+      "timestamp": "2025-11-05T03:36:11.296Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 12
+    },
+    {
+      "timestamp": "2025-11-05T03:36:11.481Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 11
+    },
+    {
+      "timestamp": "2025-11-05T03:36:11.659Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 14
+    },
+    {
+      "timestamp": "2025-11-05T03:36:11.849Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 16
+    },
+    {
+      "timestamp": "2025-11-05T03:36:12.034Z",
+      "action": "exit",
+      "count": 2,
+      "currentVisitors": 14
+    },
+    {
+      "timestamp": "2025-11-05T03:36:12.206Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 16
+    },
+    {
+      "timestamp": "2025-11-05T03:36:12.399Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 18
+    },
+    {
+      "timestamp": "2025-11-05T03:36:12.588Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 21
+    },
+    {
+      "timestamp": "2025-11-05T03:36:12.793Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 24
+    },
+    {
+      "timestamp": "2025-11-05T03:36:12.971Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 27
+    },
+    {
+      "timestamp": "2025-11-05T03:36:13.159Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 30
+    },
+    {
+      "timestamp": "2025-11-05T03:36:13.335Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 33
+    },
+    {
+      "timestamp": "2025-11-05T03:36:13.518Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 35
+    },
+    {
+      "timestamp": "2025-11-05T03:36:13.702Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 36
+    },
+    {
+      "timestamp": "2025-11-05T03:36:13.861Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 38
+    },
+    {
+      "timestamp": "2025-11-05T03:36:14.066Z",
+      "action": "exit",
+      "count": 2,
+      "currentVisitors": 36
+    },
+    {
+      "timestamp": "2025-11-05T03:36:14.250Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 38
+    },
+    {
+      "timestamp": "2025-11-05T03:36:14.440Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 41
+    },
+    {
+      "timestamp": "2025-11-05T03:36:14.619Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 42
+    },
+    {
+      "timestamp": "2025-11-05T03:36:14.796Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 45
+    },
+    {
+      "timestamp": "2025-11-05T03:36:15.001Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 44
+    },
+    {
+      "timestamp": "2025-11-05T03:36:15.146Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 45
+    },
+    {
+      "timestamp": "2025-11-05T03:36:15.344Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 44
+    },
+    {
+      "timestamp": "2025-11-05T03:36:15.523Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 46
+    },
+    {
+      "timestamp": "2025-11-05T03:36:15.699Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 49
+    },
+    {
+      "timestamp": "2025-11-05T03:36:15.883Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 52
+    },
+    {
+      "timestamp": "2025-11-05T03:36:16.095Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 55
+    },
+    {
+      "timestamp": "2025-11-05T03:36:16.239Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 52
+    },
+    {
+      "timestamp": "2025-11-05T03:36:16.431Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 53
+    },
+    {
+      "timestamp": "2025-11-05T03:36:16.616Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 56
+    },
+    {
+      "timestamp": "2025-11-05T03:36:16.807Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 58
+    },
+    {
+      "timestamp": "2025-11-05T03:36:16.992Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 60
+    },
+    {
+      "timestamp": "2025-11-05T03:36:17.182Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 63
+    },
+    {
+      "timestamp": "2025-11-05T03:36:17.372Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 66
+    },
+    {
+      "timestamp": "2025-11-05T03:36:17.552Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 69
+    },
+    {
+      "timestamp": "2025-11-05T03:36:17.750Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 72
+    },
+    {
+      "timestamp": "2025-11-05T03:36:17.900Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 73
+    },
+    {
+      "timestamp": "2025-11-05T03:36:18.058Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 74
+    },
+    {
+      "timestamp": "2025-11-05T03:36:18.236Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 71
+    },
+    {
+      "timestamp": "2025-11-05T03:36:18.407Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 72
+    },
+    {
+      "timestamp": "2025-11-05T03:36:18.591Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 74
+    },
+    {
+      "timestamp": "2025-11-05T03:36:18.783Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 71
+    },
+    {
+      "timestamp": "2025-11-05T03:36:18.946Z",
+      "action": "exit",
+      "count": 2,
+      "currentVisitors": 69
+    },
+    {
+      "timestamp": "2025-11-05T03:36:19.152Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 71
+    },
+    {
+      "timestamp": "2025-11-05T03:36:19.338Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 74
+    },
+    {
+      "timestamp": "2025-11-05T03:36:29.139Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 75
+    },
+    {
+      "timestamp": "2025-11-05T03:36:29.290Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 74
+    },
+    {
+      "timestamp": "2025-11-05T03:36:29.496Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 75
+    },
+    {
+      "timestamp": "2025-11-05T03:36:29.846Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 77
+    },
+    {
+      "timestamp": "2025-11-05T03:36:31.477Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 78
+    },
+    {
+      "timestamp": "2025-11-05T03:36:31.662Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 81
+    },
+    {
+      "timestamp": "2025-11-05T03:36:31.998Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 80
+    },
+    {
+      "timestamp": "2025-11-05T03:36:32.175Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 77
+    },
+    {
+      "timestamp": "2025-11-05T03:36:32.355Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 74
+    },
+    {
+      "timestamp": "2025-11-05T03:36:32.537Z",
+      "action": "enter",
+      "count": 2,
+      "currentVisitors": 76
+    },
+    {
+      "timestamp": "2025-11-05T03:36:32.737Z",
+      "action": "exit",
+      "count": 2,
+      "currentVisitors": 74
+    },
+    {
+      "timestamp": "2025-11-05T03:36:32.907Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 77
+    },
+    {
+      "timestamp": "2025-11-05T03:36:33.097Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 80
+    },
+    {
+      "timestamp": "2025-11-05T03:36:33.255Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 81
+    },
+    {
+      "timestamp": "2025-11-05T03:36:33.460Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 82
+    },
+    {
+      "timestamp": "2025-11-05T03:36:33.671Z",
+      "action": "exit",
+      "count": 2,
+      "currentVisitors": 80
+    },
+    {
+      "timestamp": "2025-11-05T03:36:33.843Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 77
+    },
+    {
+      "timestamp": "2025-11-05T03:36:34.028Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 74
+    },
+    {
+      "timestamp": "2025-11-05T03:36:34.247Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 71
+    },
+    {
+      "timestamp": "2025-11-05T03:36:34.426Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 72
+    },
+    {
+      "timestamp": "2025-11-05T03:36:34.595Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 73
+    },
+    {
+      "timestamp": "2025-11-05T03:36:34.795Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 76
+    },
+    {
+      "timestamp": "2025-11-05T03:36:34.978Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 75
+    },
+    {
+      "timestamp": "2025-11-05T03:36:35.156Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 76
+    },
+    {
+      "timestamp": "2025-11-05T03:36:35.336Z",
+      "action": "exit",
+      "count": 1,
+      "currentVisitors": 75
+    },
+    {
+      "timestamp": "2025-11-05T03:36:35.949Z",
+      "action": "exit",
+      "count": 3,
+      "currentVisitors": 72
+    },
+    {
+      "timestamp": "2025-11-05T03:36:36.127Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 75
+    },
+    {
+      "timestamp": "2025-11-05T03:36:36.307Z",
+      "action": "enter",
+      "count": 3,
+      "currentVisitors": 78
+    },
+    {
+      "timestamp": "2025-11-05T03:36:37.323Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 79
+    },
+    {
+      "timestamp": "2025-11-05T03:36:37.509Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 80
+    },
+    {
+      "timestamp": "2025-11-05T03:36:37.666Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 81
+    },
+    {
+      "timestamp": "2025-11-05T03:36:37.836Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 82
+    },
+    {
+      "timestamp": "2025-11-05T03:36:38.001Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 83
+    },
+    {
+      "timestamp": "2025-11-05T03:36:38.186Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 84
+    },
+    {
+      "timestamp": "2025-11-05T03:36:38.363Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 85
+    },
+    {
+      "timestamp": "2025-11-05T03:36:38.541Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 86
+    },
+    {
+      "timestamp": "2025-11-05T03:36:38.711Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 87
+    },
+    {
+      "timestamp": "2025-11-05T03:36:38.883Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 88
+    },
+    {
+      "timestamp": "2025-11-05T03:36:39.060Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 89
+    },
+    {
+      "timestamp": "2025-11-05T03:36:39.224Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 90
+    },
+    {
+      "timestamp": "2025-11-05T03:36:39.416Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 91
+    },
+    {
+      "timestamp": "2025-11-05T03:36:39.601Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 92
+    },
+    {
+      "timestamp": "2025-11-05T03:36:39.785Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 93
+    },
+    {
+      "timestamp": "2025-11-05T03:36:39.969Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 94
+    },
+    {
+      "timestamp": "2025-11-05T03:36:40.161Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 95
+    },
+    {
+      "timestamp": "2025-11-05T03:36:40.338Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 96
+    },
+    {
+      "timestamp": "2025-11-05T03:36:40.524Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 97
+    },
+    {
+      "timestamp": "2025-11-05T03:36:40.716Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 98
+    },
+    {
+      "timestamp": "2025-11-05T03:36:40.892Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 99
+    },
+    {
+      "timestamp": "2025-11-05T03:36:41.077Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 100
+    },
+    {
+      "timestamp": "2025-11-05T03:36:41.261Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 100
+    },
+    {
+      "timestamp": "2025-11-05T03:36:41.460Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 100
+    },
+    {
+      "timestamp": "2025-11-05T03:36:41.645Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 100
+    },
+    {
+      "timestamp": "2025-11-05T03:36:41.825Z",
+      "action": "enter",
+      "count": 1,
+      "currentVisitors": 100
+    },
+    {
+      "timestamp": "2025-11-05T03:36:45.749Z",
+      "action": "reset",
+      "count": 0,
+      "currentVisitors": 0
+    }
+  ],
+  "dailyStats": {
+    "2025-11-05": {
+      "date": "2025-11-05",
+      "totalVisits": 123,
+      "peakVisitors": 100,
+      "hourlyData": {
+        "10": {
+          "hour": 10,
+          "visits": 123,
+          "avgVisitors": 43
+        }
+      }
+    }
+  }
+}
