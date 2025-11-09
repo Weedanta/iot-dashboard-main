@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Middleware
-app.use(cors());
+app.use(cors({origin: true}));
 app.use(express.json());
 app.use(express.static('public'));
 
