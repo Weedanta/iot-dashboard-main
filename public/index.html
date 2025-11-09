@@ -183,6 +183,18 @@
                     <i class="fas fa-redo mr-2"></i> Reset
                 </button>
             </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 pt-5">
+                <div>
+                    <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-full p-2.5" placeholder="ESP32 SSE API Endpoint Address..." required />
+                </div>
+                <button id="connectBtn" onclick="connectToESP32()" 
+                        class="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
+                    <i class="fa-solid fa-link"></i> Connect
+                </button>
+            </div>
+            <div id="espStatus" class="flex justify-center align-center pt-3 hidden">
+                <p><i class="fa-solid fa-wifi pe-3"></i>Connected!</p>
+            </div>
         </div>
 
         <!-- Recent Activity -->
@@ -520,6 +532,31 @@
             setInterval(fetchHourlyStats, 60000); // Every minute
             setInterval(updateFooterTime, 1000);
         });
+
+        // ESP functions
+        let espEndpoint;
+        let eventSource = null;
+        const espStatus = document.getElementById('espStatus');
+        const connectBtn = document.getElementById('connectBtn');
+
+        function connectToESP32() {
+            updateConnectionStatus(espStatus.classList.contains('hidden'));
+        }
+
+        function updateConnectionStatus(connected) {
+            // Update your UI to show connection status
+            console.log(connected ? "Connected to ESP32" : "Disconnected from ESP32");
+
+            espStatus.classList.toggle('hidden');
+
+            if (connected) {
+                connectBtn.innerHTML = '<i class="fa-solid fa-unlink"></i> Disconnect';
+                connectBtn.className = 'bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105';
+            } else {
+                connectBtn.innerHTML = '<i class="fa-solid fa-link"></i> Connect';
+                connectBtn.className = 'bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105';
+            }
+        }
     </script>
 </body>
 </html>
